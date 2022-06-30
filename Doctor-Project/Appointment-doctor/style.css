@@ -1,0 +1,157 @@
+/* Nav section start */
+.nav-secton{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+    color: crimson;
+    font-size: 22px;
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li{
+    display: flex;
+	display: inline-block;
+	text-align: center;
+  	padding: 10px 20px;
+}
+nav ul li a{
+    color: #343a40;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a:hover{								
+	background-color: #19D3AE;
+    color: #fff;
+    height: 100px;
+}
+/* first section start */
+.first-section{
+    display: flex;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(images/bg.png);
+    background-position: center;
+    min-height: 370px;
+
+}
+.april-div{
+    display: flex;
+    padding: 20px;
+}
+.fst-div{
+    padding: 110px;
+    display: flex;
+    box-shadow: 3px 3px 5px grey;
+    border-radius: 8px;
+    text-align: center;
+    margin: 0 60px;
+    height: 160px;
+    width: 190px;
+    justify-content: center;
+}
+.fst-div h2{
+    padding: 30px;
+    text-align: center;
+}
+.first-div-2{
+    padding: 15px;
+    height: 100px;
+}
+.april{
+    margin: -125px;
+    padding: 30px;
+}
+.h2-april{
+    padding: 40px;
+    margin-left: 60px;
+}
+/* secend section start */
+.sec-section{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.book-Appointment{
+    padding: 40px;
+    height: 150px;
+    width: 300px;
+    margin: 0 30px;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.dc-btn{
+    color: #fff;
+    background-color: #19D3AE; 
+    border-radius: 10px;
+    width: 170px;
+    height: 60px;
+    margin-top: -20px;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+} 
+.thrd-section{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+.book-Appointment-2{
+    padding: 40px;
+    height: 150px;
+    width: 300px;
+    margin: 0 30px;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+.four-section{
+    display: flex;
+    padding: 30px;
+    height: 120px;
+    font-family: sans-serif;
+}
+.four-div{
+    padding: 20px;
+    margin: 40px;
+    width: 350px;
+    height: 70px;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 12px;
+    text-align: center;
+}
+.four-div h3{
+    color: #19D3AE;
+}
+div a{
+    text-decoration: none;
+}
+.five-section{
+    display: flex;
+    font-family: sans-serif;
+}
+
+/* footer section start */
+.footer{
+    background-image:  url(images/dribbble_1.gif);
+    background-position: 100%;
+    height: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer h3{
+    color: #343a40;
+}
+.last-div{
+    display: flex;
+}
+.last-div-dived{
+    padding: 0 20px;
+    margin: 0 130px;
+}
+.dr-container{
+    margin-top: -100px;
+}
